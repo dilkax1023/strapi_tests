@@ -1,0 +1,30 @@
+{
+  "name": "test-ckeditor",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.0.8",
+    "@strapi/plugin-i18n": "4.1.9",
+    "@strapi/plugin-users-permissions": "4.1.9",
+    "@strapi/strapi": "4.1.9",
+    "better-sqlite3": "7.4.6"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "c831fc26-5a75-4fe6-8acc-9c4fdefbe9c4"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
